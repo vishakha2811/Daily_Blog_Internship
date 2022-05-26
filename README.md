@@ -36,3 +36,33 @@ In a nutshell, Scrum requires a Scrum Master to foster an environment where:
 
 **12th feb to 15th feb**
 
+### Introduction to SQL
+
+- SQL is a standard language for accessing and manipulating databases.
+- SQL stands for Structured Query Language
+- SQL lets you access and manipulate databases
+- SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987
+
+**16th feb to 17th feb**
+
+### Introduction to Linux
+
+Linux is an open-source operating system like other operating systems such as Microsoft Windows, Apple Mac OS, iOS, Google android, etc. An operating system is a software that enables the communication between computer hardware and software. It conveys input to get processed by the processor and brings output to the hardware to display it. This is the basic function of an operating system.
+
+ 1.Introduction to Putty
+ 
+Developed and primarily maintained by Simon Tatham, PuTTY is an open-source application making use of network protocols like Telnet and rlogin in Windows and UNIX platforms in conjunction with an xterm terminal emulator. Over a network, PuTTY makes use of all the above protocols to enable a remote session on a computer. It is a popular tool for text-based communication and is also a popular utility for connecting Linux servers from Microsoft operating system-based computers.
+
+Download the setup of putty from website:
+(https://www.putty.org/)
+ 
+**18th feb to 22th feb**
+
+
+### 1.Introduction to SEO
+
+### 2.Introduction to GTM
+
+### 3. Introduction to HTML
+
+
