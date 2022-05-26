@@ -1,7 +1,7 @@
 # Weekly_Blog_Internship
 
 
-**7th feb to 9th feb**
+**7th feb to 10th feb**
 
 ## 1.Introduction to company
 
@@ -20,7 +20,7 @@ Currently the IndiaMART app has more than 1 crore (10 million) downloads with a
 IndiaMART was the first company to test the IPO market in the Modi Government’s
 Second tenure.
 
-**10th feb**
+**11th feb**
 
 ### 1.Introduction to Scrum
 
@@ -28,10 +28,11 @@ Scrum is a framework within which people can address complex adaptive problems, 
 
 Scrum is a lightweight framework that helps people, teams and organizations generate value through adaptive solutions for complex problems. Scrum co-creators Ken Schwaber and Jeff Sutherland have written The Scrum Guide to explain Scrum clearly and succinctly.  This Guide contains the definition of Scrum. This definition consists of Scrum’s accountabilities, events, artifacts, and the rules that bind them together. 
 
-- In a nutshell, Scrum requires a Scrum Master to foster an environment where:
+In a nutshell, Scrum requires a Scrum Master to foster an environment where:
 - A Product Owner orders the work for a complex problem into a Product Backlog.
 - The Scrum Team turns a selection of the work into an Increment of value during a Sprint.
 - The Scrum Team and its stakeholders inspect the results and adjust for the next Sprint.
+- Repeat.
 
-**10th feb**
+**11th feb**
 
