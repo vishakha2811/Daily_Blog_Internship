@@ -1,9 +1,9 @@
 # Weekly_Blog_Internship
 
 
-**7th feb to 10th feb**
+**7th feb to 9th feb**
 
-## 1.Introduction to company
+## Introduction to company
 
 IndiaMART InterMESH Ltd. is an Indian e-commerce company that provides B2B
 and customer to customer sales services via its web portal. The group began in 1996
@@ -22,7 +22,7 @@ Second tenure.
 
 **11th feb**
 
-### 1.Introduction to Scrum
+### Introduction to Scrum
 
 Scrum is a framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.
 
@@ -34,5 +34,5 @@ In a nutshell, Scrum requires a Scrum Master to foster an environment where:
 - The Scrum Team and its stakeholders inspect the results and adjust for the next Sprint.
 - Repeat.
 
-**11th feb**
+**12th feb to 15th feb**
 
