@@ -72,15 +72,58 @@ Once it is successfully downloaded on Windows than follow the following steps to
 
 - Following the successful installation, navigate to the location folder where you have installed the application and run the .exe file.
 
-![Putty Window!](https://www.puttygen.com/wp-content/uploads/2019/01/Putty-Configuration.png "Puuty Window")
+![Putty Window!](https://www.puttygen.com/wp-content/uploads/2019/01/Putty-Configuration.png "Putty Window")
  
 **18th feb to 22th feb**
 
 
 ### 1.Introduction to SEO
 
+SEO stands for “search engine optimization.” In simple terms, it means the process of improving your site to increase its visibility when people search for products or services related to your business in Google, Bing, and other search engines. The better visibility your pages have in search results, the more likely you are to garner attention and attract prospective and existing customers to your business.
+
+SEO is a fundamental part of digital marketing because people conduct trillions of searches every year, often with commercial intent to find information about products and services. Search is often the primary source of digital traffic for brands and complements other marketing channels. Greater visibility and ranking higher in search results than your competition can have a material impact on your bottom line.
+
+However, the search results have been evolving over the past few years to give users more direct answers and information that is more likely to keep users on the results page instead of driving them to other websites.
+
+Also note, features like rich results and Knowledge Panels in the search results can increase visibility and provide users more information about your company directly in the results.
+
+In sum, SEO is the foundation of a holistic marketing ecosystem. When you understand what your website users want, you can then implement that knowledge across your campaigns (paid and organic), across your website, across your social media properties, and more.
+
 ### 2.Introduction to GTM
 
+Google Tag Manager is a tag management system that includes the same functionality as global site tags, and lets you configure and instantly deploy tags on your website or mobile app from an easy to use web-based user interface. In addition, Tag Manager features support for tag organization and version control, 3rd party and community-developed tag templates, and enterprise collaboration and security features.
+Tag Manager helps to optimize tag deployment, reduce tag configuration errors and allows you to modify and deploy tags on your site instantly from a web-based interface.
+
+
 ### 3. Introduction to HTML
+
+HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
+
+"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.
+
+An HTML element is set off from other text in a document by "tags", which consist of the element name surrounded by "<" and ">". The name of an element inside a tag is case insensitive. That is, it can be written in uppercase, lowercase, or a mixture. For example, the <title> tag can be written as <Title>, <TITLE>, or in any other way. However, the convention and recommended practice is to write tags in lowercase.
+
+**23th feb to 24th feb**
+
+### Introduction to Javascript
+
+JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries.All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data
+structures, and the Document Object Model (DOM).
+
+**25th feb to 28th feb**
+
+### Introduction to React
+
+React is a JavaScript library for building user interfaces.React is used to build single-page applications.React allows us to create reusable UI components.React is an open source, JavaScript library for developing user interface (UI) in web application. React is developed and released by Facebook. Facebook is continuously working on the React library and enhancing it by fixing bugs and introducing new features. This tutorial starts with the architecture of React, how-to guide to setup projects, creating components, JSX and then walks through advanced concepts like state management, form programming, routing and finally conclude with step by step working example.
+
+
+**1st mar**
+
+### Introduction to NodeJs
+ 
+Node.js is a very powerful JavaScript-based platform built on Google Chrome's JavaScript V8 Engine. It is used to develop I/O intensive web applications like video streaming sites, single-page applications, and other web applications. Node.js is open source, completely free, and used by thousands of developers around the world.Node.js is a server-side platform built on Google Chrome's JavaScript Engine (V8 Engine). Node.js was developed by Ryan Dahl in 2009.Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.
+
+
+
 
 
