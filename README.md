@@ -1,6 +1,6 @@
 # Daily_Blog_Internship
 
-**Weekly Blog**
+## Weekly Blog
 
-1. 7th feb to 11th feb
-2. 14th feb to 18th feb
+### 7th feb to 11th feb
+### 14th feb to 18th feb
