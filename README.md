@@ -72,7 +72,7 @@ Once it is successfully downloaded on Windows than follow the following steps to
 
 - Following the successful installation, navigate to the location folder where you have installed the application and run the .exe file.
 
-![Putty Window!](C:/Users/Vishakha/Downloads/image.png "Puuty Window")
+![Putty Window!](https://www.puttygen.com/wp-content/uploads/2019/01/Putty-Configuration.png "Puuty Window")
  
 **18th feb to 22th feb**
 
