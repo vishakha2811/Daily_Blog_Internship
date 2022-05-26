@@ -55,6 +55,24 @@ Developed and primarily maintained by Simon Tatham, PuTTY is an open-source appl
 
 Download the setup of putty from website:
 (https://www.putty.org/)
+
+Once it is successfully downloaded on Windows than follow the following steps to install the software:
+
+- Double click on the downloaded .msi file and being with the setup process.
+
+- Click on next and then select the path for the installation.
+
+- Select the product feature you want to be installed in your system and click on install.
+
+- Click on Finish to complete the setup and close the dialog box.
+
+- Complete Installing PuTTY in Windows
+
+- Using SSH in PuTTY (Windows)
+
+- Following the successful installation, navigate to the location folder where you have installed the application and run the .exe file.
+
+![Putty Window!](C:/Users/Vishakha/Downloads/image.png "Puuty Window")
  
 **18th feb to 22th feb**
 
