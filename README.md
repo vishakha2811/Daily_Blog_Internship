@@ -1,7 +1,7 @@
 # Weekly_Blog_Internship
 
 
-## 7th feb to 11th feb
+## 7th feb to 9th feb
 
 ### 1.Introduction to company
 
@@ -20,7 +20,11 @@ Currently the IndiaMART app has more than 1 crore (10 million) downloads with a
 IndiaMART was the first company to test the IPO market in the Modi Government’s
 Second tenure.
 
-## 14th feb to 18th feb
+## 10th feb 
+
+### 1.Introduction to Scrum
+
+
 
 
 ### 
