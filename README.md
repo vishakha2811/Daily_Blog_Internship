@@ -122,6 +122,37 @@ React is a JavaScript library for building user interfaces.React is used to buil
 ### Introduction to NodeJs
  
 Node.js is a very powerful JavaScript-based platform built on Google Chrome's JavaScript V8 Engine. It is used to develop I/O intensive web applications like video streaming sites, single-page applications, and other web applications. Node.js is open source, completely free, and used by thousands of developers around the world.Node.js is a server-side platform built on Google Chrome's JavaScript Engine (V8 Engine). Node.js was developed by Ryan Dahl in 2009.Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.
+ 
+ **3rd mar to 11th mar**
+ 
+ ### Technical Session 
+ 
+In this week we learned about working of different departments in indiamart and different tech stack used in Indiamart.Following are the different technologies used in Indiamart:
+ - PHP
+ - Oracle,Postgres,Cassandra
+ - DotNet
+ - React
+ - Kafka
+ - NodeJs
+ - SEO and Google Analytics
+ - Power BI
+ - Golang
+ 
+ **14 mar**
+ 
+ ## Inroduction to OpenProject
+ 
+- Web – based project management tool
+- Open Source project application
+- Mostly used for lot of collaborative features such as project planning, timeline reports, task management and more.
+- Helps to obtain a (visual) overview in operating complex projects.
+ 
+ ![image](https://user-images.githubusercontent.com/43844898/170640364-36c62889-13de-4115-b43e-e48a468ceb48.png)
+
+
+ 
+ 
+ 
 
 
 
