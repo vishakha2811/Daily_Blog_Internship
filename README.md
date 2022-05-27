@@ -138,7 +138,7 @@ In this week we learned about working of different departments in indiamart and 
  - Power BI
  - Golang
  
- **14 mar**
+ **14th mar**
  
  ## Inroduction to OpenProject
  
@@ -148,7 +148,103 @@ In this week we learned about working of different departments in indiamart and 
 - Helps to obtain a (visual) overview in operating complex projects.
  
  ![image](https://user-images.githubusercontent.com/43844898/170640364-36c62889-13de-4115-b43e-e48a468ceb48.png)
+ 
+ 
+**15th mar**
+ 
+ ## Introduction to Shinken
+ 
+Shinken is an open source computer system and network monitoring software application compatible with Nagios. It watches hosts and services, gathers performance data and alerts users when error conditions occur and again when the conditions clear.
 
+Shinken's architecture aims to offer easier load balancing and high availability. The administrator manages a single configuration, the system automatically "cuts" it into parts and dispatches it to worker nodes. 
+ 
+Shinken is designed to run under all operating systems where Python runs. The development environment is under Linux, but also runs well on other Unix variants and Windows. The reactionner process (responsible for sending notifications) can also be run under the Android OS. It is free software, licensed under the terms of the Affero General Public License as published by the Free Software Foundation.
+ 
+ ![image](https://user-images.githubusercontent.com/43844898/170641430-d48f7461-bbaa-437a-b5ae-6ad54807ae90.png)
+
+ 
+ 
+**16th mar** 
+ 
+ ## Introduction to Zabbix
+ 
+Zabbix is an open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services.Zabbix collects and displays basic metrics.
+- Architecture of Zabbix
+Zabbix is composed of the following components:
+
+1.Zabbix server :
+Provides Zabbix’s central monitoring functions.Executes monitoring. Stores monitoring configuration and monitoring data in databases.
+2.Zabbix Web server :
+Web interface for configuring and displaying Zabbix monitoring data
+3.Zabbix proxy servers :
+Servers are distributed in locations not transparent on the network. Carry out monitoring in place of the Zabbix server and exchange monitoring configuration and monitoring data with the Zabbix server.
+4.Zabbix agent :
+Agent that acts on the monitored target. Sends the target’s monitoring data to the Zabbix server.
+ 
+ ![image](https://user-images.githubusercontent.com/43844898/170641624-e40d4fdc-67d1-40e5-888d-0dc608398d1d.png)
+ 
+ # Learning SQL
+ 
+ **17th mar to 18th mar**
+ 
+1. What is Postgres?
+ 
+PostgreSQL is an advanced, enterprise-class, and open-source relational database system. PostgreSQL supports both SQL (relational) and JSON (non-relational) querying.
+PostgreSQL is a highly stable database backed by more than 20 years of development by the open-source community.
+PostgreSQL is used as a primary database for many web applications as well as mobile and analytics applications.
+ 
+2.PostgreSQL feature highlights: 
+ 
+PostgreSQL has many advanced features that other enterprise-class database management systems offer, such as:
+
+- User-defined types
+- Table inheritance
+- Sophisticated locking mechanism
+- Foreign key referential integrity
+- Views, rules, subquery
+- Nested transactions (savepoints)
+- Multi-version concurrency control (MVCC)
+- Asynchronous replication
+ 
+The recent versions of PostgreSQL support the following features:
+- Native Microsoft Windows Server version
+- Tablespaces
+- Point-in-time recovery 
+ 
+ 3.Install PostgreSQL on Windows:
+ 
+- Download PostgreSQL installer for Windows
+- Install PostgreSQL
+- Verify the installation
+- For more reference visit the below website given:
+ (https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/)
+- Connect To a PostgreSQL Database Server
+- Connect to PostgreSQL database server using pgAdmin
+ 
+The following illustrates how to connect to a database using pgAdmin GUI application:
+
+- First, launch the pgAdmin application.
+- Second, right-click the Servers node and select Create > Server… menu to create a server.
+- Third, enter the server name e.g., PostgreSQL and click the Connection tab.
+- Fourth, enter the host and password for the postgres user and click the Save button.
+- Sixth, open the query tool by choosing the menu item Tool > Query Tool or click the lightning icon.
+- Seventh, enter the query in the Query Editor, click the Execute button, you will see the result of the query displaying in the Data Output tab.
+ 
+For more reference visit below website:
+https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
 
  
  
