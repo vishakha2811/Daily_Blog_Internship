@@ -233,6 +233,91 @@ The following illustrates how to connect to a database using pgAdmin GUI applica
 For more reference visit below website:
 https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/
  
+ **21th mar to 1st apr**
+ 
+ 
+ ## Database Composition:
+ 
+ 
+ 
+![image](https://user-images.githubusercontent.com/43844898/170690470-5c14a172-d0a1-4819-8e7f-43f288558bc3.png)
+ 
+ ## Database Environment :
+ 
+- Development Database : This DB is completely dedicated to developers where they can perform all database related activities except DDL commands and DBA activities.    Developers can compile all DB objects and make any DML operations here.
+
+- Read Only Database : Copy of production database  storing  over-night data. No DML commands are possible here as the name suggests its open for read only access. It is generally used for reporting, verification purpose and data extractions.
+
+- Production Database : All live modules are running on this database. Keep live data , no one has direct access on this database except database team .
+ 
+ ## DBA Responsibilities 
+
+- Installing and upgrading the required database technology and application tools
+- Allocating system storage and planning future storage requirements for the database system
+- Creating primary database storage structures (tablespaces) after application developers have designed an application
+- Creation and modification of all required DB objects (tables, views, indexes etc) after confirmation from DBCR panel.
+- Controlling and monitoring user access to the database.
+- Monitoring and optimizing the performance of the database.
+- Backing up and restoring the database.
+ 
+ **4 apr to 8 apr**
+ 
+ ## Data retrieval and granting access
+ 
+For working on databases we installed various software like sql developer for oracle work, pgadmin for postgreSQL and mtputty for sudo access and command line use.
+For managing our project or tickets we used openproject software.Each languages have various database like:
+- For oracle : meshr and reportdb
+- For postgreSQL : Enquirydb,Imbuyreq,Approvalpg
+- MySQL : Tender
+- For Cassandra - Trade, FCP, SELLERS.IM, MY, SOA, Clickstream, Mobile, MDC, TDW, CWS.
+- For Neo4j - Fraud Detection
+ 
+We also studied about structure of various databases.We also learn about to retrieve huge data and share and giving access to other users in different teams.Sometimes we faced problem regarding sharing of huge data in crores.Then we learn how to create table on other database and access data through database linking.Then we give access to other teams so that they can access that.
+For instance, meshr contains most of the old indiamart data.In case a team requires huge amount of data from meshr.Then it cannot be provided directly.For this purpose we use reportdb,where we accumulate all the required data and grant access according to the departments.
+ 
+ 
+ **11 apr to 15 apr**
+ 
+ ## Query Optimization
+ 
+ Data is integral part of any application.Access to the data should be in the fastest way possible to enhance user experience while using the application.We learn before making any query we try to follow various things:
+- Not applying joins unless it is not important.
+- Applying where clause to restrict data.
+- FROM and JOIN: The FROM clause, and subsequent JOINs are 
+first executed to determine the total working set of data that is 
+being queried 
+- WHERE: Once we have the total working set of data, the 
+WHERE constraints are applied to the individual rows, and 
+rows that do not satisfy the constraint are discarded. 
+- GROUP BY: The remaining rows after the WHERE constraints 
+are applied are then grouped based on common values in the 
+column specified in the GROUP BY clause.  
+ HAVING: If the query has a GROUP BY clause, then the 
+constraints in the HAVING clause are applied to the grouped 
+rows 
+- SELECT: Any expressions in the SELECT part of the query are 
+finally computed. 
+- DISTINCT: Of the remaining rows. 
+- ORDER BY: If an order is specified by the ORDER BY clause, 
+the rows are then sorted by the specified data . 
+- LIMIT: Finally, the rows that fall outside the range specified by 
+the LIMIT are discarded, leaving the final set of rows to be 
+returned from the query.  
+ 
+ 
+ 
+ **18 apr to 22 apr**
+ 
+ 
+ 
+ **25 apr to 29 apr**
+
+
+ 
+
+ 
+ 
+ 
 
  
  
