@@ -308,9 +308,45 @@ returned from the query.
  
  **18 apr to 22 apr**
  
+ ## Load Monitoring Tools
  
+ - Shinken : It is used to monitor all the databases of indiamart.We can check alerts on various servers.It tells us whether particular server is critical,normal and warning.Three types of alert is there:
+ Normal: It means that server is working fine.
+ Warning : It means that server is giving downtime take action within duration.
+ Crtical : It means that server is on high alert take action as soon as possible.
  
+- Zabbix : It gives us summary about server load in the form of graphs.We can check summary of load on servers in various duration like weekly,monthly and yearly.
+ Data ranging from last two years to last 5 mins and anything in between.
+ 
+ ![image](https://user-images.githubusercontent.com/43844898/170699641-e6205725-a13e-4a02-afb4-d4154f8047d1.png)
+ 
+
  **25 apr to 29 apr**
+ 
+ ## Leader Connect 
+ 
+Indiamart also give us great opportunity to interact with leaders of different sections within Indiammart.This interaction has helped us in gaining knowledge of not only technical aspect but also carrer guidance and different aspects of life.Different leaders are that we interacted with :
+ 
+1.Mohak saxena 
+2.Vivek Agarwal
+3.Dinesh Agarwal(CEO and Founder)
+4.Abhishek Bhartia
+5.Devendra Sharma
+6.Ajay Kumar
+7.Vikram Varshney
+8.Dharmesh Meena
+9.Kaustubh Mishra
+10.Amrinder Dhariwal
+11.Sunil Parolia
+12.Vikas Deep Verma
+13.Sandeep Garg
+14.Madhup Agarwal 
+15.Pulkit pandey 
+16.Amit Jain 
+ 
+ 
+ 
+ 
 
 
  
