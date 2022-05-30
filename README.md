@@ -381,7 +381,8 @@ Indiamart also give us great opportunity to interact with leaders of different s
   4.SELECT DISTINCT
  
      ```sql
- SELECT DISTINCT column1 FROM table_name;```
+           SELECT DISTINCT column1 FROM table_name;
+     ```
  
  - Filtering Data
  
