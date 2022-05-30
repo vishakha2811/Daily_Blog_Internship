@@ -360,7 +360,7 @@ Indiamart also give us great opportunity to interact with leaders of different s
  
 16.Amit Jain 
  
- ** 3rd  may to  13th may **
+ **3rd  may to  13th may**
  
  ## Postgres Tutorial
  
@@ -386,31 +386,31 @@ Indiamart also give us great opportunity to interact with leaders of different s
  
  1.WHERE
  
-   `SELECT select_list FROM table_name WHERE condition ORDER BY sort_expression`
+     `SELECT select_list FROM table_name WHERE condition ORDER BY sort_expression`
  
  2.LIMIT
  
-   `SELECT select_list  FROM table_name ORDER BY sort_expression LIMIT row_count`
+     `SELECT select_list  FROM table_name ORDER BY sort_expression LIMIT row_count`
  
  3.FETCH
  
-  `OFFSET start { ROW | ROWS } FETCH { FIRST | NEXT } [ row_count ] { ROW | ROWS } ONLY`
+    `OFFSET start { ROW | ROWS } FETCH { FIRST | NEXT } [ row_count ] { ROW | ROWS } ONLY`
  
  4.IN
  
-  `value IN (SELECT column_name FROM table_name);`
+    `value IN (SELECT column_name FROM table_name);`
  
  5.BETWEEN
  
-  `value BETWEEN low AND high;`
+     `value BETWEEN low AND high;`
  
  6.LIKE
  
-  `SELECT first_name,last_name FROM customer WHERE first_name LIKE 'Jen%';`
+    `SELECT first_name,last_name FROM customer WHERE first_name LIKE 'Jen%';`
  
  7.IS NULL
  
-  `SELECT id,first_name,last_name,email,phone FROM contacts WHERE phone = NULL;`
+     `SELECT id,first_name,last_name,email,phone FROM contacts WHERE phone = NULL;`
  
  - Joining Multiple Tables
  
