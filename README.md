@@ -260,6 +260,7 @@ https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgre
 - Monitoring and optimizing the performance of the database.
 - Backing up and restoring the database.
  
+
  **4 apr to 8 apr**
  
  ## Data retrieval and granting access
@@ -328,21 +329,119 @@ returned from the query.
 Indiamart also give us great opportunity to interact with leaders of different sections within Indiammart.This interaction has helped us in gaining knowledge of not only technical aspect but also carrer guidance and different aspects of life.Different leaders are that we interacted with :
  
 1.Mohak saxena 
+ 
 2.Vivek Agarwal
+ 
 3.Dinesh Agarwal(CEO and Founder)
+ 
 4.Abhishek Bhartia
+ 
 5.Devendra Sharma
+ 
 6.Ajay Kumar
+ 
 7.Vikram Varshney
+ 
 8.Dharmesh Meena
+ 
 9.Kaustubh Mishra
+ 
 10.Amrinder Dhariwal
+ 
 11.Sunil Parolia
+ 
 12.Vikas Deep Verma
+ 
 13.Sandeep Garg
+ 
 14.Madhup Agarwal 
-15.Pulkit pandey 
+ 
+15.Pulkit pandey
+ 
 16.Amit Jain 
+ 
+ ** 3rd  may to  13th may **
+ 
+ ## Postgres Tutorial
+ 
+ - Querying Data
+ 
+  1.SELECT
+      `SELECT
+   select_list
+FROM
+   table_name;`
+  2.Column Aliases
+       `code`
+  3.ORDER BY
+      `code`
+  4.SELECT DISTINCT
+     `code`
+ 
+ - Filtering Data
+ 
+ 1.WHERE
+   `code`
+ 2.LIMIT
+    `code`
+ 3.FETCH
+    `code`
+ 4.IN
+  `code`
+ 5.BETWEEN
+  `code`
+ 6.LIKE
+  `code`
+ 7.IS NULL
+  `code`
+ 
+ - Joining Multiple Tables
+ 
+ 1.Joins
+  `code`
+ 2.INNER JOIN
+  `code`
+ 3.LEFT JOIN
+ `code`
+ 4.RIGHT JOIN
+ `code`
+ 5.SELF-JOIN
+ `code`
+ 6.FULL OUTER JOIN
+ `code`
+ 7.Cross Join
+ `code`
+ 8.Natural Join
+ `code`
+ 
+ - Grouping Data
+ 
+ 1.GROUP BY
+ `code`
+ 2.HAVING
+ `code`
+ 
+ - Set Operations
+ 
+ 1.UNION
+ `code`
+ 2.INTERSECT
+ `code`
+ 3.EXCEPT
+ `code`
+ 4.Grouping sets,Cube, and Rollup
+ `code`
+ `code`
+ `code`
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
