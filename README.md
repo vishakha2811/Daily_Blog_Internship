@@ -375,10 +375,13 @@ Indiamart also give us great opportunity to interact with leaders of different s
        `SELECT column_name AS alias_name FROM table_name;`
  
   3.ORDER BY
+ 
       `SELECT select_list FROM table_name ORDER BY sort_expression1 [ASC | DESC],`
  
   4.SELECT DISTINCT
-     ```SELECT DISTINCT column1 FROM table_name;```
+ 
+     ```sql
+ SELECT DISTINCT column1 FROM table_name;```
  
  - Filtering Data
  
