@@ -367,10 +367,13 @@ Indiamart also give us great opportunity to interact with leaders of different s
  - Querying Data
  
   1.SELECT
+ 
       `SELECT
    select_list
 FROM
    table_name;`
+ 
+ 
   2.Column Aliases
        `code`
   3.ORDER BY
