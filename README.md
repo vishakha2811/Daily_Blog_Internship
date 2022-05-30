@@ -239,8 +239,8 @@ https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgre
  ## Database Composition:
  
  
- 
-![image](https://user-images.githubusercontent.com/43844898/170690470-5c14a172-d0a1-4819-8e7f-43f288558bc3.png)
+ ![image](https://user-images.githubusercontent.com/43844898/170986428-8ec7cb04-f1d8-40f8-9a44-4d44bd08e16d.png)
+
  
  ## Database Environment :
  
