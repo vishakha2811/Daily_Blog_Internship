@@ -368,14 +368,17 @@ Indiamart also give us great opportunity to interact with leaders of different s
  
   1.SELECT
  
-      <mark> `SELECT select_list FROM table_name;` </mark>
+       `SELECT select_list FROM table_name;` 
  
   2.Column Aliases
-       `code`
+ 
+       `SELECT column_name AS alias_name FROM table_name;`
+ 
   3.ORDER BY
-      `code`
+      `SELECT select_list FROM table_name ORDER BY sort_expression1 [ASC | DESC],`
+ 
   4.SELECT DISTINCT
-     `code`
+     ```SELECT DISTINCT column1 FROM table_name;```
  
  - Filtering Data
  
