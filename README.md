@@ -390,11 +390,11 @@ Indiamart also give us great opportunity to interact with leaders of different s
  
  2.LIMIT
  
-    `SELECT select_list  FROM table_name ORDER BY sort_expression LIMIT row_count`
+   `SELECT select_list  FROM table_name ORDER BY sort_expression LIMIT row_count`
  
  3.FETCH
  
-    `OFFSET start { ROW | ROWS } FETCH { FIRST | NEXT } [ row_count ] { ROW | ROWS } ONLY`
+  `OFFSET start { ROW | ROWS } FETCH { FIRST | NEXT } [ row_count ] { ROW | ROWS } ONLY`
  
  4.IN
  
