@@ -239,7 +239,7 @@ https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgre
  ## Database Composition:
  
  
- ![image](https://user-images.githubusercontent.com/43844898/170986428-8ec7cb04-f1d8-40f8-9a44-4d44bd08e16d.png)
+ ![image](https://user-images.githubusercontent.com/43844898/170986798-24d7002b-755d-4364-8d0e-3268e88b2916.png)
 
  
  ## Database Environment :
@@ -318,9 +318,9 @@ returned from the query.
 - Zabbix : It gives us summary about server load in the form of graphs.We can check summary of load on servers in various duration like weekly,monthly and yearly.
  Data ranging from last two years to last 5 mins and anything in between.
  
- ![image](https://user-images.githubusercontent.com/43844898/170699641-e6205725-a13e-4a02-afb4-d4154f8047d1.png)
- 
+![image](https://user-images.githubusercontent.com/43844898/170986620-77788e57-6f6e-48d5-9fb7-fad66a348a46.png)
 
+ 
  **25 apr to 29 apr**
  
  ## Leader Connect 
