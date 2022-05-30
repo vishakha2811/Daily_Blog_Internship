@@ -368,7 +368,7 @@ Indiamart also give us great opportunity to interact with leaders of different s
  
   1.SELECT
  
-      <mark>`SELECT select_list FROM table_name;`</mark>
+      <mark> `SELECT select_list FROM table_name;` </mark>
  
   2.Column Aliases
        `code`
