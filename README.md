@@ -380,65 +380,201 @@ Indiamart also give us great opportunity to interact with leaders of different s
  
   4.SELECT DISTINCT
  
-     ```sql
-     SELECT DISTINCT column1 FROM table_name;
-     ```
+     `SELECT DISTINCT column1 FROM table_name;`
  
  - Filtering Data
  
  1.WHERE
-   `code`
+ 
+   `SELECT select_list FROM table_name WHERE condition ORDER BY sort_expression`
+ 
  2.LIMIT
-    `code`
+ 
+    `SELECT select_list  FROM table_name ORDER BY sort_expression LIMIT row_count`
+ 
  3.FETCH
-    `code`
+ 
+    `OFFSET start { ROW | ROWS } FETCH { FIRST | NEXT } [ row_count ] { ROW | ROWS } ONLY`
+ 
  4.IN
-  `code`
+ 
+  `value IN (SELECT column_name FROM table_name);`
+ 
  5.BETWEEN
-  `code`
+ 
+  `value BETWEEN low AND high;`
+ 
  6.LIKE
-  `code`
+ 
+  `SELECT first_name,last_name FROM customer WHERE first_name LIKE 'Jen%';`
+ 
  7.IS NULL
-  `code`
+ 
+  `SELECT id,first_name,last_name,email,phone FROM contacts WHERE phone = NULL;`
  
  - Joining Multiple Tables
  
- 1.Joins
-  `code`
- 2.INNER JOIN
-  `code`
- 3.LEFT JOIN
- `code`
- 4.RIGHT JOIN
- `code`
- 5.SELF-JOIN
- `code`
- 6.FULL OUTER JOIN
- `code`
- 7.Cross Join
- `code`
- 8.Natural Join
- `code`
+  
+ 1.INNER JOIN
+ 
+  `SELECT customer.customer_id,first_name,last_name,amount,payment_date FROM customer INNER JOIN payment ON payment.customer_id = customer.customer_id
+    ORDER BY payment_date;`
+ 
+ 2.LEFT JOIN
+ 
+ `SELECT film.film_id,title,inventory_id FROM film LEFT JOIN inventory ON inventory.film_id = film.film_id ORDER BY title;`
+ 
+ 3.RIGHT JOIN
+ 
+ `SELECT review, title FROM films RIGHT JOIN film_reviews USING (film_id);`
+ 
+ 4.SELF-JOIN
+ 
+ `SELECT e.first_name || ' ' || e.last_name employee,m .first_name || ' ' || m .last_name manager FROM employee e
+   INNER JOIN employee m ON m .employee_id = e.manager_id ORDER BY manager;`
+ 
+ 5.FULL OUTER JOIN
+ 
+ `SELECT * FROM A FULL [OUTER] JOIN B on A.id = B.id;`
+ 
+ 6.Cross Join
+ 
+ `SELECT select_list FROM T1 CROSS JOIN T2;`
+ 
+ 7.Natural Join
+ 
+ `SELECT	* FROM products INNER JOIN categories USING (category_id);`
  
  - Grouping Data
  
  1.GROUP BY
- `code`
+ 
+ `SELECT column_1, column_2, ...,aggregate_function(column_3) FROM table_name GROUP BY column_1,column_2, ...;`
+ 
  2.HAVING
- `code`
+ 
+ `SELECT column1,aggregate_function (column2) FROM table_name GROUP BY column1 HAVING condition;`
  
  - Set Operations
  
  1.UNION
- `code`
+ 
+ `SELECT select_list_1 FROM table_expresssion_1 UNION SELECT select_list_2 FROM table_expression_2`
+ 
  2.INTERSECT
- `code`
- 3.EXCEPT
- `code`
+ 
+ `SELECT select_list FROM A INTERSECT SELECT select_list FROM B;`
+ 
+ 
  4.Grouping sets,Cube, and Rollup
- `code`
- `code`
- `code`
+ 
+ `SELECT c1,c2,aggregate_function(c3) FROM table_name GROUP BY GROUPING SETS ((c1, c2),(c1),(c2),());`
+ 
+ `SELECT c1,c2,c3,aggregate (c4) FROM table_name GROUP BY CUBE (c1, c2, c3);`
+ 
+ `SELECT c1,c2,c3,aggregate(c4) FROM table_name GROUP BY ROLLUP (c1, c2, c3);`
+ 
+ - Subquery
+ 
+1.Subquery
+ 
+ `SELECT film_id,title,rental_rate FROM film WHERE rental_rate > (SELECT AVG (rental_rate) FROM film);`
+ 
+2.ANY
+ 
+ `SELECT title FROM film WHERE length >= ANY(SELECT MAX( length ) FROM film INNER JOIN film_category USING(film_id) GROUP BY  category_id );`
+ 
+ 
+3.ALL
+ 
+ `SELECT film_id,title,length FROM film WHERE length > ALL ( SELECT ROUND(AVG (length),2) FROM film GROUP BY rating) ORDER BY length;`
+ 
+4.EXISTS
+ 
+ `SELECT column1 FROM table_1 WHERE EXISTS( SELECT 1 FROM table_2 WHERE column_2 = table_1.column_1);`
+ 
+ - Common Table Expressions
+ 
+ `WITH cte_name (column_list) AS (CTE_query_definition )statement;`
+ 
+ - Modifying Data
+ 
+ 1.INSERT
+ 
+ `INSERT INTO table_name(column1, column2, …) VALUES (value1, value2, …);`
+ 
+ 2.INSERT Multiple Rows
+ 
+ `INSERT INTO table_name (column_list) VALUES (value_list_1),(value_list_2),...(value_list_n);`
+ 
+ 3.UPDATE
+ 
+ `UPDATE table_name SET column1 = value1,column2 = value2,...WHERE condition;`
+ 
+ 4.UPDATE Join
+ 
+ `UPDATE t1 SET t1.c1 = new_value FROM t2 WHERE t1.c2 = t2.c2;`
+ 
+ 5.DELETE
+ 
+ `DELETE FROM table_name WHERE condition;`
+ 
+ 6.DELETE Join
+ 
+ `DELETE FROM table_name1 USING table_expression WHERE condition RETURNING returning_columns;`
+ 
+ 7.Upsert
+ 
+ `INSERT INTO table_name(column_list) VALUES(value_list) ON CONFLICT target action;`
+ 
+ - Managing Tables
+ 
+1.Create Table
+ 
+ `CREATE TABLE [IF NOT EXISTS] table_name (column1 datatype(length) column_contraint,column2 datatype(length) column_contraint,column3 datatype(length)       column_contraint,table_constraints);`
+ 
+2.Select Into
+ 
+  `SELECT select_list INTO [ TEMPORARY | TEMP | UNLOGGED ] [ TABLE ] new_table_name FROM table_name WHERE search_condition;`
+ 
+3.Create Table As
+ 
+  `CREATE TABLE new_table_name AS query;`
+ 
+4.Alter Table
+ 
+ `ALTER TABLE table_name ADD COLUMN column_name datatype column_constraint;`
+ 
+5.Rename Table
+ 
+ 
+ `ALTER TABLE table_name RENAME TO new_table_name;`
+ 
+6.Add Column
+ 
+ `ALTER TABLE table_name ADD COLUMN new_column_name data_type constraint;`
+ 
+7.Drop Column
+ 
+ `ALTER TABLE table_name  DROP COLUMN column_name;`
+ 
+ 
+8.Change Column’s Data Type
+ 
+ `ALTER TABLE table_name ALTER COLUMN column_name [SET DATA] TYPE new_data_type;`
+ 
+ 
+9.Rename Column
+ 
+ `ALTER TABLE table_name RENAME COLUMN column_name TO new_column_name;`
+ 
+ 
+10.Drop Table
+ 
+ `DROP TABLE [IF EXISTS]  table_name_1,table_name_2,...[CASCADE | RESTRICT];`
+ 
+ 
+ 
  
  
  
