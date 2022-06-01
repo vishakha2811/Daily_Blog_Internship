@@ -575,9 +575,9 @@ Indiamart also give us great opportunity to interact with leaders of different s
  
  **16th may to 3 june**
  
- ## Mesh Migration
+## Mesh Migration
  
- - Introduction
+- Introduction
  
 We have very important database in Indiamart named MESHR which is in oracle.Recently comapany decided to migrate to PostgreSQL.PostgreSQL is the most professional of the relational Open Source databases and was awarded “Database System Of The Year” several times. It is a highly reliable, stable, scalable and secure system, and has been around for more than two decades now.  As such, it has been established as a major player in the Open Source database world and is challenging big players such as Oracle, Sybase, and IBM. PostgreSQL is professionally maintained and developed software, capable of running compldata-driven applications.
 To take advantage of advanced features of oracle company had to pay.So, to reduce cost and have access over advanced features company has to migrate from oracle to PostgreSQL as it is open source.
@@ -598,13 +598,31 @@ This step involves a more granular assessment of the data we want to migrate. We
 
 3. Converting Database Schema:
  
-Heterogeneous migrations involving migration between different database engines are relatively more complex than homogenous migrations. While schemas for heterogeneous database migrations can be converted manually, it is often very resource-intensive and time-consuming. 
+Heterogeneous migrations involving migration between different database engines are relatively more complex than homogenous migrations. While schemas for heterogeneous database migrations can be converted manually, it is often very resource-intensive and time-consuming.So,we majorly involved in conversion of database schema as it is most time consuming.We converted functions,procedures, tables , mviews, foreign tables.As the syntax of oracle and postgreSQL has many differences.
  
-So,we majorly involved in conversion of database schema as it is most time consuming.We converted functions,procedures,tables,mviews,foreign tables.As the syntax of oracle and postgreSQL has many differences.
+ ## Mapping of Oracle to PostgreSQL
  
- ![image](https://user-images.githubusercontent.com/43844898/171341404-0af9c8ca-1b09-45a1-9792-f71cb105f71c.png)
+![image](https://user-images.githubusercontent.com/43844898/171341404-0af9c8ca-1b09-45a1-9792-f71cb105f71c.png)
 
- ![image](https://user-images.githubusercontent.com/43844898/171341499-3c22e3b0-5359-43a8-a6bf-1b2ee892d6db.png)
+![image](https://user-images.githubusercontent.com/43844898/171341499-3c22e3b0-5359-43a8-a6bf-1b2ee892d6db.png)
+ 
+ Apart from syntax, oracle and postgres also differentiate alot on the basis of internal functionalities.
+ 
+- Dual Table:
+ 
+In Oracle FROM clause is mandatory for every SELECT statement so Oracle database uses DUAL table for SELECT statement where table name is not required. In PostgreSQL, FROM clause is not mandatory so DUAL table is not necessary. The Dual table can be created in PostgreSQL as a view to eliminate the porting problem
+
+ 
+- Behaviour of Empty String and NULL:
+ 
+In Oracle, empty strings and NULL values in string context are the same. The concatenation of NULL and string obtain string as a result. In PostgreSQL the concatenation result is null in this case. In Oracle IS NULL operator is used to check whether string is empty or not but in PostgreSQL result is FALSE for empty string and TRUE for NULL. 
+ 
+- SUBSTR:
+ 
+The behaviour of SUBSTR function in Oracle and PostgreSQL is different. The SUBSTR function works in PostgreSQL without error but returns a different result. This difference can cause application bugs. 
+ 
+ 
+ 
 
   
 
