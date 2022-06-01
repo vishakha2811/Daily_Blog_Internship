@@ -573,6 +573,45 @@ Indiamart also give us great opportunity to interact with leaders of different s
  
    `DROP TABLE [IF EXISTS]  table_name_1,table_name_2,...[CASCADE | RESTRICT];`
  
+ **16th may to 3 june**
+ 
+ ## Mesh Migration
+ 
+ - Introduction
+ 
+We have very important database in Indiamart named MESHR which is in oracle.Recently comapany decided to migrate to PostgreSQL.PostgreSQL is the most professional of the relational Open Source databases and was awarded “Database System Of The Year” several times. It is a highly reliable, stable, scalable and secure system, and has been around for more than two decades now.  As such, it has been established as a major player in the Open Source database world and is challenging big players such as Oracle, Sybase, and IBM. PostgreSQL is professionally maintained and developed software, capable of running compldata-driven applications.
+To take advantage of advanced features of oracle company had to pay.So, to reduce cost and have access over advanced features company has to migrate from oracle to PostgreSQL as it is open source.
+ 
+Let’s take a look at the different steps to understand how to do database migration:
+
+1. Understanding the Source Database:
+ 
+A vital database migration step to understand is the source data that will populate our target database before starting any database migration project. Here are the questions that we should be able to answer about our source database:
+
+What is the size of the source database? The size and complexity of the database we are trying to migrate will determine the scope of our migration project. This will also determine the time and computing resources required to transfer the data.
+Does the database contain ‘large’ tables?’ If our source database contains tables that have millions of rows, we might want to use a tool with the capability to load data in parallel.
+What kind of data types will be involved? If we migrate data between different databases, such as an Oracle database to a PostgreSQL one, we will need schema conversion capabilities to successfully execute our DB migration project.
+ 
+2. Assessing the Data:
+ 
+This step involves a more granular assessment of the data we want to migrate. We would like to profile our source data and define data quality rules to remove inconsistencies, duplicate values, or incorrect information. Data profiling at an early stage of migration will help us mitigate the risk of delays, budget overruns, and even complete failures. We will also be able to define data quality rules to validate our data and improve its quality and accuracy, resulting in efficient DB migration.
+
+3. Converting Database Schema:
+ 
+Heterogeneous migrations involving migration between different database engines are relatively more complex than homogenous migrations. While schemas for heterogeneous database migrations can be converted manually, it is often very resource-intensive and time-consuming. 
+ 
+So,we majorly involved in conversion of database schema as it is most time consuming.We converted functions,procedures,tables,mviews,foreign tables.As the syntax of oracle and postgreSQL has many differences.
+ 
+ ![image](https://user-images.githubusercontent.com/43844898/171341404-0af9c8ca-1b09-45a1-9792-f71cb105f71c.png)
+
+ ![image](https://user-images.githubusercontent.com/43844898/171341499-3c22e3b0-5359-43a8-a6bf-1b2ee892d6db.png)
+
+  
+
+
+ 
+ 
+ 
  
  
  
